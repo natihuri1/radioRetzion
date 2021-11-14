@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <group android:id="@+id/drawer_group_1">
+        <item
+            android:id="@+id/btnMenuLibrary"
+            android:actionLayout="@layout/activity_library"
+            android:icon="@drawable/ic_android_black_24dp"
+            android:title="Library" />
+        <item
+            android:id="@+id/btnMenuBlog"
+            android:actionLayout="@layout/activity_blog"
+            android:title="Blog" />
+        <item
+            android:id="@+id/btnMenuAboutUs"
+            android:actionLayout="@layout/activity_about_usctivity"
+            android:title="About us" />
+        <item
+            android:id="@+id/btnMenuEvents"
+            android:actionLayout="@layout/activity_events"
+            android:title="Events" />
+        <item
+            android:id="@+id/btnShare"
+            android:title="Share"/>
+        <item
+            android:id="@+id/btnMenuExit"
+            android:title="Exit" />
+
+
+        />
+    </group>
+</menu>
